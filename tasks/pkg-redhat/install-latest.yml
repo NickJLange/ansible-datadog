@@ -1,6 +1,6 @@
 ---
 - name: Install latest datadog-agent package
-  yum:
+  dnf:
     name: datadog-agent
     update_cache: yes
     state: latest  # noqa 403
